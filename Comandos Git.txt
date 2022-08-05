@@ -1,0 +1,30 @@
+git init -> Inicia git
+
+git add -> Hace un seguimiento de archivos, git add nombre_de_archivo -> Sigue un archivo específico, git add . -> Sigue todos los archivos de esa carpeta.
+
+git commit -m "comentario" -> Hace la copia de respaldo de los archivos junto con el comentario ingresado.
+
+git status -s -> Muestra los archivos del directorio, con y sin seguimiento.
+
+git log --oneline -> Muestra los repaldos realizados juntos con sus commits, también muestra los tags y las ramas creadas.
+
+git reset --hard código_de_respaldo -> Vuelve al respaldo solicitado, eliminando todos los respaldos posteriores a ese.
+
+git commit -am "comentario" -> Permite hacer en 1 solo paso el git add y el git commit.
+
+git push -u origin nombre_de_la_rama -> Sube los commits y/o cambios al repositorio remoto, en este caso GitHub.
+
+git pull -> Actualiza los cambios en el repositorio remoto a local.
+
+git tag nombre_de_la_etiqueta -m "comentario" -> Nos permite agregar etiquetas de manera local.
+
+git push --tags -> Sube al repositorio remoto las tags locales.
+
+git branch nombre_de_la_rama -> Crea un rama en el repositorio
+
+git branch -> Muestra las ramas creadas
+
+git checkout nombre_de_la_rama -> Nos permite movernos a la rama especificada.
+
+git merge nombre_de_la_rama -> Fusiona a la rama en la que estamos parados otra rama especificada.
+
